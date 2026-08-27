@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang=vi>
+    <head>
+        <meta charset=UTF-8>
+        <meta name=viewport content='width=device-width,initial-scale=1'>
+        <title>Sản phẩm</title>
+        <link rel=stylesheet href='css/style.css'>
+    </head>
+    <body>
+        <header>
+            <h1>Sản phẩm</h1>
+            <nav>
+                <a href="index.html">Trang chủ</a>
+                <a href="about.html">Giới thiệu</a>
+                <a href="products.html">Sản phẩm</a>
+                <a href="contact.html">Liên hệ</a>
+            </nav>
+        </header>
+        <main>
+            <select id=filter>
+                <option value=all>Tất cả</option>
+                <option value=Ca-phe>Cà phê</option>
+                <option value=Gia-vi>Gia vị</option>
+                <option value=Hat>Hạt</option>
+                <option value=Do-uong>Đồ uống</option>
+                <option value=Nong-san>Nông sản</option>
+            </select>
+            <div id=list class=grid></div>
+        </main>
+        <script src='js/app.js'></script>
+    </body>
+</html>
